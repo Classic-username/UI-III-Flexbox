@@ -64,3 +64,152 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+nav {
+	text-align: center;
+	margin: 10px;
+	display: flex;
+	justify-content: left;
+	width: 100%;
+}
+nav a {
+	margin: 10px 25px;
+	color: grey;
+	text-decoration: none;
+	width: 100%;
+}
+
+nav img {
+	margin-left: 75px;
+}
+
+.indH1 {
+	height: 300px;
+	width: 400px;
+	font-size: 70px;
+	text-align: center;
+	margin: 0 0 -75px 0;
+}
+div button {
+	padding: 10px 30px;
+	margin: 0 0 0 130px;
+}
+header img {
+	margin: -300px 0 0 500px;
+}
+header {
+	margin: 90px 0 20px 0;
+	padding: 0 0 30px 0;
+	display: inline-block;
+	border-bottom: 2px solid grey;
+}
+
+
+.div1 {
+	padding-bottom: 30px;
+	display: flex;
+}
+
+.div2 div {
+	margin: 5px;
+}
+.div2 {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+.near-footer {
+	border-top: 2px solid grey;
+	margin: 20px 0;
+}
+section address {
+	padding: 20px 0 0 0;
+	display: break;
+	margin: 20px 0 0 0;
+	width: 200px;
+} 
+section address p {
+	margin: 20px 0;
+}
+footer {
+	margin: 40px 0 60px;
+	text-align: center;
+}
+
+
+
+
+
+
+/*services page, style with classes or ids*/
+
+.sHead {
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	padding: 30px 0;
+}
+
+.sHead h1 {
+	font-size: 30px; 
+}
+
+.sBody {
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+.sBody div {
+	background: WhiteSmoke;
+	width: 430px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	padding: 20px;
+	justify-content: left;
+}
+.sBody .left {
+	margin-right: 35px;
+}
+.sBody h2 {
+	margin-bottom: 20px;
+}
+
+.sBody p {
+	margin-bottom: 20px;
+}
+.sBody button {
+	margin: 0px;
+	justify-content: left;
+
+}
+
+.sNearBottom {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.sNearBottom div {
+	width: 420px;
+}
+
+.sNearBottom ul {
+	margin: 20px;
+	list-style-type: disc;
+}
+ul li {
+	margin-bottom: 10px;
+}
+.sFooter {
+	padding-top: 20px;
+}
